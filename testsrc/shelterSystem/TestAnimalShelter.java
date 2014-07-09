@@ -142,7 +142,7 @@ public class TestAnimalShelter {
 	}
 	
 	@Then("the system should be able to give me a (.+)")
-	public void checkAdpot(String a1){
+	public void checkAdopt(String a1){
 		if(a1.equals("dog")){
 			assertTrue(output instanceof Dog);
 		}
